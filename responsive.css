@@ -1,0 +1,49 @@
+@media screen{
+#photo
+{
+    background-color: initial;
+    margin-top: 2%;
+}
+h1
+{
+    margin-top: 2%;
+}
+#bloc
+{
+    font-size: 1.2em;
+    width: auto;
+}
+#contact
+{
+    width: auto;
+    background-color: initial;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#about_me
+{
+    width: auto;
+    background-color: initial;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#loisir
+{
+    font-size: 1.1em;
+}
+.icons
+{
+    padding: 1.5%;
+}
+
+#section{
+    display: flex;
+    flex-direction: column;
+    background-color: initial;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}}

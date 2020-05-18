@@ -1,4 +1,4 @@
-@media screen{
+@media screen and (max-width: 800px){
 #photo
 {
     background-color: initial;
@@ -10,8 +10,9 @@ h1
 }
 #block
 {
-    font-size: 1.2em;
-    width: auto;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
 }
 #contact
 {

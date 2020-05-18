@@ -5,11 +5,11 @@ html, body{
     margin: 0;
 }
 
-#bloc{
+#block{
 	display: flex;
 }
 
-#bloc>aside{
+#block>aside{
     background-color: rgb(254,202,7);
     width: 20%;
     min-width: 250px;
@@ -18,7 +18,7 @@ html, body{
     justify-content: space-between;
 }
 
-.connaissance{
+.information{
 	background-color: rgb(64,64,64);
 	color: rgb(254,202,7);
 	text-align: center;
@@ -26,19 +26,19 @@ html, body{
 	padding-bottom: 3px;
 	font-size: 1.1em;
 }
-#loisir>div{
+#hobbies>div{
     display: flex;
     justify-content: space-around;
     margin-bottom: 3%;
 }
-#loisir>div>i{
+#hobbies>div>i{
     font-weight: 900;
     font-size: 300%;
     padding: 3%;
     border-radius: 100%;
     border: 3px solid;
 }
-#moi>div:first-child>img{
+#myself>div:first-child>img{
     overflow:hidden;
     -webkit-border-radius:50%;
     -moz-border-radius:50%;
@@ -51,10 +51,10 @@ html, body{
   	margin-top: 40px;
     margin-bottom: 40px;
 }
-#moi>div:nth-child(2)>ul{
+#myself>div:nth-child(2)>ul{
     list-style-type: none;
 }
-#moi>div:nth-child(3)>p{
+#myself>div:nth-child(3)>p{
     text-align: justify;
     margin-left: 10%;
     margin-right: 10%;
@@ -66,7 +66,7 @@ html, body{
     margin-right: 10%;
     font-size: 1.2em;
 }
-#liste>li{
+#list>li{
     font-size: 1.2em;
     margin-bottom: 13px;
 }
@@ -98,7 +98,7 @@ html, body{
     border-bottom: solid;
     border-color: rgb(254,202,7);
 }
-.titre{
+.title{
     font-weight: 500;
     font-size: 1.3em;
 }
@@ -140,7 +140,7 @@ html, body{
     width: 27%;
     font-size: 1.2em;
 }
-.lieu{
+.place{
     width: 67%;
     font-size: 1.2em;
 }
@@ -161,7 +161,7 @@ html, body{
 }
 
 
-#recommandations{
+#reference{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -169,10 +169,10 @@ html, body{
     margin-right: 15%;
     font-size: 1.2em;
 }
-#recommandations>div>ul{
+#reference>div>ul{
     list-style-type: none;
 }
-#recommandations>div{
+#reference>div{
     display: flex;
     flex-direction: column;
     justify-content: space-around;

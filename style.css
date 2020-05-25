@@ -173,7 +173,6 @@ html, body{
     list-style-type: none;
 }
 #reference>div{
-    display: flex;
     flex-direction: column;
     justify-content: space-around;
 }

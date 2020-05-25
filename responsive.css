@@ -55,6 +55,10 @@ h1
     margin: auto;
     font-size: 0.6em;
 }
+#block>aside
+{
+    font-size: 0.6em;
+}
 #contact
 {
     width: auto;
@@ -73,7 +77,6 @@ h1
 }
 #hobbies
 {
-    font-size: 1.1em;
     border-radius: auto;
 }
 .icons
